@@ -1,0 +1,400 @@
+<!doctype html>
+<head>
+<title> Template </title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karma:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+margin:0;
+padding:0;
+}
+
+.container{
+	width: 1280px;
+	margin:0 auto;
+}
+
+header{
+position:fixed;
+width:100%;
+margin: 0 auto;
+background-color:white;
+}
+
+body{
+font-family: "Karma", serif;
+font-size:15px;
+line-height:1.5;
+}
+
+.header_main{
+display:flex;
+justify-content:space-between;
+align-items:center;
+margin:20px 0 40px 0;
+}
+
+.Food_items{
+padding: 80px 0;
+}
+
+.food_row{
+display:flex;
+gap:10px;
+margin:10px 20px 0 0 ;
+}
+
+
+.card {
+width:25%;
+gap:20px;
+}
+
+.card img{
+width:100%;
+height:400px;
+margin-bottom:10px;
+}
+
+.card h2{
+margin-bottom:25px;
+text-align:center;
+font-weight:400;
+}
+
+.card p{
+margin-bottom:30px;
+text-align:center;
+}
+
+.pagination{
+padding:20px 0 50px 0;
+}
+
+.pagination2{
+text-align:center;
+
+}
+
+.pagination2 span{
+padding:10px 15px;
+}
+
+.content{
+padding:100px 0 100px 0;
+}
+
+.active{
+background-color:black;
+color:white;
+}
+
+.content2 h2{
+margin:0 0 30px 0 ;
+text-align:center;
+}
+
+.content2 {
+display:flex;
+align-items:center;
+justify-content:center;
+flex-direction:column;
+}
+
+.content3{
+text-align:center;
+}
+
+.content2 h3{
+margin:30px 0 20px 0;
+}
+
+.content2 p{
+margin-bottom:20px;
+}
+
+footer{
+padding:30px 0 30px 0;
+}
+
+.main_footer{
+display:grid;
+grid-template-columns: repeat(3 , 1fr);
+
+}
+
+.lorem{
+display:flex;
+gap:12px;
+margin-bottom:20px;
+
+}
+
+.lorem img{
+width:40px;
+height:40px;
+}
+
+.tags span{
+    display:inline-block;
+    background:grey;
+    color:white;
+    padding:4px 10px;
+    margin:5px 5px 0 0;
+    font-size:14px;
+}
+
+
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="container">
+<div class="header_main">
+
+<div class="icon">
+<i class="fa-solid fa-bars"></i>
+
+</div>
+
+
+<div class="text">
+<h2>My Food </h2>
+
+
+</div>
+
+<div class="text2">
+
+<h2> Mail </h2>
+
+
+</div>
+
+
+
+</div>
+
+</div>
+
+</header>
+
+
+<section class="Food_items">
+
+<div class="container">
+
+<div class="food_row">
+
+<div class="card">
+<img src="https://www.w3schools.com/w3images/sandwich.jpg">
+<h2>The Perfect Sandwich, A Real NYC Classic</h2>
+<p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+
+</div>
+
+<div class="card">
+<img src="https://www.w3schools.com/w3images/steak.jpg">
+<h2>Let Me Tell You About This Steak</h2>
+<p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+
+</div>
+
+<div class="card">
+<img src="https://www.w3schools.com/w3images/cherries.jpg">
+<h2>Cherries, interrupted</h2>
+<p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+
+</div>
+
+<div class="card">
+<img src="https://www.w3schools.com/w3images/wine.jpg">
+<h2>Once Again, Robust Wine and Vegetable Pasta</h2>
+<p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+
+</div>
+
+</div>
+
+
+<div class="food_row">
+
+<div class="card">
+<img src="https://www.w3schools.com/w3images/popsicle.jpg">
+<h2>All I Need Is a Popsicle</h2>
+<p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+
+</div>
+
+<div class="card">
+<img src="https://www.w3schools.com/w3images/salmon.jpg">
+<h2>Salmon For Your Skin</h2>
+<p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+
+</div>
+
+<div class="card">
+<img src="https://www.w3schools.com/w3images/sandwich.jpg">
+<h2>The Perfect Sandwich, A Real Classic</h2>
+<p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+
+</div>
+
+<div class="card">
+<img src="https://www.w3schools.com/w3images/croissant.jpg">
+<h2>Le French</h2>
+<p>Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+
+</div>
+
+
+</div>
+
+
+
+</div>
+
+</section>
+
+<section class="pagination">
+<div class="container">
+
+<div class="pagination2">
+
+<span> <i class="fa-solid fa-angles-left"></i> </span>
+
+<span class="active">1</span>
+
+<span>2</span>
+
+<span>3</span>
+<span>4</span>
+
+<span><i class="fa-solid fa-angles-right"></i></span>
+
+</div>
+
+</div>
+
+
+</section>
+
+
+<section class="content">
+
+<div class="container">
+
+<div class="content2">
+
+<h2>About Me, The Food Man </h2>
+
+<img src="https://www.w3schools.com/w3images/chef.jpg">
+
+<div class="content3">
+
+<h3>I am Who I Am!</h3>
+
+<p><i>With Passion For Real, Good Food</i></p>
+
+<p>Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+
+
+
+</div>
+
+</div>
+
+</div>
+
+
+</section>
+
+<footer>
+
+<div class="container">
+
+<div class="main_footer">
+
+<div class="footer_content">
+<h2>FOOTER </h2>
+
+<p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p> <br>
+
+<p>© 2026 Abhinav</p>
+
+
+</div>
+
+<div class="blog">
+
+<h2>BLOG POSTS </h2>
+
+<div class="lorem">
+
+<img src="https://www.w3schools.com/w3images/workshop.jpg">
+
+<div class="content5">
+
+<p>Lorem</p>
+
+<p>Sed mattis nunc<p>
+
+</div>
+
+</div>
+
+<div class="lorem">
+<img src="https://www.w3schools.com/w3images/gondol.jpg">
+
+<div class="content6">
+
+<p>Ipsum</p>
+<p>Praes tinci sed</p>
+
+</div>
+
+</div>
+
+</div>
+
+
+
+<div class="tags">
+
+<h2>Popular Tags </h2>
+<span>Travel</span>
+<span>New York</span>
+<span>Drinks</span>
+<span>France</span>
+<span>Ideas</span>
+<span>Dressing</span>
+<span>Duck</span>
+
+</div>
+
+
+</div>
+
+
+
+</footer>
+
+
+
+
+
+</div>
+
+</div>
+</body>
+
+
+</html>
